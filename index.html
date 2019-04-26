@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Giphy</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.0.min.js"></script>
+</head>
+
+<body>
+
+    <div class="row">
+        <div class="container">
+
+
+            <button class="btn btn-info" id="reaction" data-search="Happy">Happy</button>
+            <button class="btn btn-info" id="reaction" data-search="Irritated">Irritated</button>
+            <button class="btn btn-info" id="reaction" data-search="Excited">Excited</button>
+            <button class="btn btn-info" id="reaction" data-search="Disappointed">Disappointed</button>
+            <button class="btn btn-info" id="reaction" data-search="LOL">LOL</button>
+            <button class="btn btn-info" id="reaction" data-search="Fustrated">Fustrated</button>
+            <button class="btn btn-info" id="reaction" data-search="Tired">Tired</button>
+            <button class="btn btn-info" id="reaction" data-search="Sad">Sad</button>
+            <div id="myButtons"></div>
+            <div class="column">
+                <div class="card border-info mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title">Add A Reaction</h5>
+                        <form class="form-inline">
+                            <input class="form-control mr-sm-2" id="inputReaction" type="text" placeholder="Search"
+                                aria-label="Search">
+                            <button class="btn btn-info my-2 my-sm-0" id="searchReaction" type="submit"
+                                value="submit">Search</button>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+
+            <span>
+                <div id="gifArea" data-placement="right"></div>
+            </span>
+        </div>
+
+    </div>
+
+
+
+    <script src="assets/app.js"></script>
+
+
+
+</body>
+
+</html>
